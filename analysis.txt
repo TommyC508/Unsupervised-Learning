@@ -1,0 +1,37 @@
+Some Key numeric insights:
+- The BMI 24.97 to 24.90, both clusters have similar BMI
+- Cluster 0 has 1.747h long sessions on average compared to 
+  cluster 1 having 1.131h sessions which may explain why cluster 
+  0 also has 1262.6 calories burned on average compared to 814.2
+  for cluster 1. 
+    - this is logical since people who worked out more burned more calories
+
+- Cluster 0 works out 4.52 days/week which compared to cluster 1's
+  3.02 days/week is pretty significant. This may explain why cluster 0
+  has a 15.04% average body fat compared to cluster 1's 27.52%
+
+  - This is also logical as people who worked out more often had lower
+    body fat
+
+- Cluster 0 has almost double cluster 1's experience level which is as expected
+
+- One question I have is that why is cluster 0's BMI similar with cluster 1's
+  whilst both clusters have a 12% difference in body fat. BMI is calculated with
+  height and weight so people with more fat usually have higher BMI.
+  - One possible answer I thought of is that cluster 0 either have equivalent
+    amount of lean muscle weight to make up for the fat, or the height of the two
+    may be the other factor affecting it.
+
+  - However, after comparing the means of height in both clusters, they
+    were found to be similar, as is the mean of the weight. This means it is very possible
+    that the cluster 0 has enough lean muscle to make up for the weight of the fat
+    for cluster 1
+
+
+
+Why K-Means 2 cluster worked best:
+
+This method produced the highest accuracy by having the highest average point-to-cluster fit
+Also the the clusters were more compact and well-separated from other clusters
+
+This created a distinct expert vs. beginner difference to show how and which features make people experts and which don't matter
